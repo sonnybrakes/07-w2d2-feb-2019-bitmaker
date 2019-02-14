@@ -1,6 +1,6 @@
 # B is for Bacon Bill
 
-def print_bill(): # defining a function named print_bill()
+def print_bill(item): # defining a function named print_bill()
     print()
     print("B is for {}".format(item)) # built-in print() function
     print("--------------")
@@ -11,5 +11,5 @@ def print_bill(): # defining a function named print_bill()
     print()
     print()
 
-print_bill()
+print_bill('bacon')
 print_bill('veggie bacon')
