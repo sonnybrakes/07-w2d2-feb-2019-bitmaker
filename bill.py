@@ -20,4 +20,4 @@ def print_footer():
     print("Please Come Again!")
     print()
 
-print_bill('bacon')
+print_bill('bacon', 'bacon', 'veggie bacon')
