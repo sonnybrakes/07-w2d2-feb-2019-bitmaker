@@ -1,8 +1,9 @@
 # B is for Bacon Bill
-def print_bill(item): # defining a function named print_bill()
-    print_header()
-    print_item(item)
-    print_footer()
+def print_bill(*items): # defining a function named print_bill()
+    print(items)
+    # print_header()
+    # print_item(item)
+    # print_footer()
 
 def print_header():
     print()
